@@ -16,8 +16,7 @@
     {
       "binding": "DB",
       "database_name": "snell-panel",
-      "database_id": "dfdd601c-e7ae-4d0b-82b2-620a77abd224
-",
+      "database_id": "dfdd601c-e7ae-4d0b-82b2-620a77abd224",
       "migrations_dir": "drizzle"
     }
   ],
@@ -27,5 +26,11 @@
     "ENVIRONMENT": "production"
   },
   // Bundle the installer script as a text module so GET /install.sh can serve it.
-  "rules": [{ "type": "Text", "globs": ["**/*.sh"], "fallthrough": true }]
+  "rules": [
+    {
+      "type": "Text",
+      "globs": ["**/*.sh"],
+      "fallthrough": true
+    }
+  ]
 }
