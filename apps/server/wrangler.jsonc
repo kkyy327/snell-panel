@@ -1,4 +1,4 @@
-{
+｛
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "snell-panel",
   "main": "src/index.ts",
@@ -14,7 +14,6 @@
       "binding": "DB",
       "database_name": "snell-panel",
       "database_id": "dfdd601c-e7ae-4d0b-82b2-620a77abd224",
-
       "migrations_dir": "drizzle"
     }
   ],
